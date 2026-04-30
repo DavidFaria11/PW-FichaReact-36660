@@ -14,6 +14,8 @@ export default function Navbar() {
       <NavLink to="/estudantes" style={({ isActive }) => ({ color: isActive ? "#61DAFB" : "white" })}>
         Estudantes
       </NavLink>
+      <NavLink to="/registo">Registo</NavLink>
+      <NavLink to="/notas">Notas</NavLink>
     </nav>
   );
 }
